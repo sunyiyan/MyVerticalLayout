@@ -39,5 +39,8 @@ activity:
         private VerticalTabLayout mVLayout;
         mVLayout.setMenuData(mListMenu); //赋值菜单显示数据
         mVLayout.setViewPager2(mImageViewPager);
+        
+![Screenshot_20220627_193907](https://user-images.githubusercontent.com/13829866/175933238-eb5695bc-c6a1-4ba9-98e4-e93a14b6caf2.png)
+        
 
 
