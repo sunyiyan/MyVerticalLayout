@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="syyVerticalMenu">
+        <attr name="textDefaultColor" format="reference|color" />
+        <attr name="textSelectedColor" format="reference|color" />
+        <attr name="textSize" format="dimension" />
+        <attr name="textDefaultIcon" format="reference|color" />
+        <attr name="textSelectedIcon" format="reference|color" />
+    </declare-styleable>
+</resources>
