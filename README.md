@@ -1,5 +1,5 @@
 # MyVerticalLayout
-垂直/竖向 菜单 适配viewPager2,viewPager2滑动菜单跟着滑动
+垂直/竖向 菜单 VerticaTablLayout 适配viewPager2,viewPager2滑动菜单跟着滑动
 
 使用方法：
 外部build.gradle:
@@ -20,7 +20,7 @@ app:build.gradle:
 
 xml:
 
-    syyVerticalMenu:菜单的问题颜色，文字背景的更换
+    syyVerticalMenu:菜单的文字颜色，文字背景的更换
     
       <com.haipeng.verticallayout.VerticalTabLayout
         android:id="@+id/left_menu"
