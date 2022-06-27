@@ -1,5 +1,5 @@
 # MyVerticalLayout
-垂直/竖向 菜单 VerticaTablLayout 适配viewPager2,viewPager2滑动菜单跟着滑动
+VerticaTablLayout垂直/竖向 菜单 适配viewPager2,viewPager2滑动菜单跟着滑动
 
 使用方法：
 外部build.gradle:
