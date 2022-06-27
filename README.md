@@ -1,16 +1,21 @@
 # MyVerticalLayout
-垂直/竖向 菜单 适配viewPager2
+垂直/竖向 菜单 适配viewPager2,viewPager2滑动菜单跟着滑动
 
 使用方法：
 外部build.gradle:
+
 buildscript {
+    
     repositories {
+        
         maven {url 'https://jitpack.io'}
+    
     }
    
 }
 
 app:build.gradle:
+  
   implementation 'com.github.sunyiyan:MyVerticalLayout:v1.0.0'
 
 xml:
@@ -30,8 +35,8 @@ xml:
         syyVertivalMenu:textSelectedColor="@color/menu_text_blue"
         syyVertivalMenu:textSelectedIcon="@drawable/ic_selected" />
 activity:
-       private VerticalTabLayout mVLayout;
-    
+
+        private VerticalTabLayout mVLayout;
         mVLayout.setMenuData(mListMenu); //赋值菜单显示数据
         mVLayout.setViewPager2(mImageViewPager);
 
